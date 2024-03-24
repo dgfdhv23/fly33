@@ -6,8 +6,7 @@ const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.abcd.com';  // 哪吒3个�
 const NEZHA_PORT = process.env.NEZHA_PORT || '5555';             // 哪吒端口为443时开启tls
 const NEZHA_KEY = process.env.NEZHA_KEY || '';                   // 哪吒客户端密钥
 const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'wertcr.eu.org';               // 固定隧道域名，留空即启用临时隧道
-const ARGO_AUTH = process.env.ARGO_AUTH || ' beds.wertcr.eu.org
-{"AccountTag":"efaafdc065291d02224d0efac5bb535c","TunnelSecret":"qgKBsy0KWn+zdKvsu1ayY3pvmk+I0RnV+L9DjLPPGck=","TunnelID":"371cc56b-b204-4ab7-b80d-92e516ff29c2"}';                   // 固定隧道json或token，留空即启用临时隧道
+const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"efaafdc065291d02224d0efac5bb535c","TunnelSecret":"qgKBsy0KWn+zdKvsu1ayY3pvmk+I0RnV+L9DjLPPGck=","TunnelID":"371cc56b-b204-4ab7-b80d-92e516ff29c2"}';                   // 固定隧道json或token，留空即启用临时隧道
 const CFIP = process.env.CFIP || 'government.se';                // 优选域名或优选ip
 const CFPORT = process.env.CFPORT || 443;                        // 节点端口，一般不用改
 const NAME = process.env.NAME || 'ABCD';                         // 节点名称
