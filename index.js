@@ -1,12 +1,12 @@
-﻿const FILE_PATH = process.env.FILE_PATH || './temp';
+const FILE_PATH = process.env.FILE_PATH || './temp';
 const projectPageURL = process.env.URL || '';    // 填写项目域名可自动访问保活，例如：https://www.google.com
 const intervalInMilliseconds = process.env.TIME || 2 * 60 * 1000;// 自动访问间隔时间（2分钟）
 const UUID = process.env.UUID || '515069d1-91a7-41c6-ad66-4319b7d8779b';
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.abcd.com';  // 哪吒3个变量不全不运行
 const NEZHA_PORT = process.env.NEZHA_PORT || '5555';             // 哪吒端口为443时开启tls
 const NEZHA_KEY = process.env.NEZHA_KEY || '';                   // 哪吒客户端密钥
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'wertcr.eu.org';               // 固定隧道域名，留空即启用临时隧道
-const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"efaafdc065291d02224d0efac5bb535c","TunnelSecret":"qgKBsy0KWn+zdKvsu1ayY3pvmk+I0RnV+L9DjLPPGck=","TunnelID":"371cc56b-b204-4ab7-b80d-92e516ff29c2"}';                   // 固定隧道json或token，留空即启用临时隧道
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'flyseds.duhusouftmail.tk';               // 固定隧道域名，留空即启用临时隧道
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiMGVjZmRjNjg5YTQ3YjdjMjNmOTUyOGFiNzA1Njg2ZWMiLCJ0IjoiNTE1YzRiZGEtODIzNi00YzE0LWI1ZjYtNzA0NTllOWU3N2U3IiwicyI6IllqQXhZVEkwTVdVdE56TTVOeTAwWVRSakxXSTJabU10TWpJMU5tRmhOVGxtTXpnMiJ9';                   // 固定隧道json或token，留空即启用临时隧道
 const CFIP = process.env.CFIP || 'government.se';                // 优选域名或优选ip
 const CFPORT = process.env.CFPORT || 443;                        // 节点端口，一般不用改
 const NAME = process.env.NAME || 'ABCD';                         // 节点名称
